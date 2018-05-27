@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="First_TestNG_XML_File">
+<test name="FirstTest">
+<classes>
+<class name="module6.AnnotationDemo"></class>
+
+</classes>
+</test>
+
+</suite>

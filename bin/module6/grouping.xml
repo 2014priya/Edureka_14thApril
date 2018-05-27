@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="GroupingExample">
+<test name="GroupExecution">
+<groups>
+<run>
+<include name="Services"></include>
+<exclude name="Homepage"></exclude>
+<include name="ContactUs"></include>
+
+</run>
+</groups>
+<classes>
+<class name="module6.Scenario2"></class>
+</classes>
+
+</test>
+
+</suite>
